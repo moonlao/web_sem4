@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+header {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-self: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Albert Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+#all-tasks {
+  /* !!! */
+  color: #0a4543;
+}
+
+#tasks-status {
+  justify-content: center;
+  align-content: center;
+  margin: 5px;
+}
+
+section {
+  width: 50%;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.in-progress {
+  background-color: lightyellow;
+}
+
+#tasks-in-progress {
+  color: #0a4543;
+}
+
+.finished {
+  background-color: lightgreen;
+}
+
+#finished-tasks {
+  color: #0a4543;
+}
+
+.item-style {
+    font-family: 'Albert Sans', sans-serif;
+  font-size: 20px;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-panel {
+  background-color: lightgray;
+  margin: 5px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
